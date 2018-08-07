@@ -9,9 +9,10 @@ class ThemeSwitcher extends Component {
     super(props);
     const allThemes = getThemes();
     const firstTimeThemes = allThemes.filter(theme => theme.firstTime === true);
+    const mainTheme = allThemes.filter(theme => theme.name === "indigo-alt" || theme.name === 'material-cyan')
 
     this.state = {
-      theme: firstTimeThemes[Math.floor((Math.random() * (firstTimeThemes.length)))]
+      theme: mainTheme[1]
     }
 
     this.switchTheme = this.switchTheme.bind(this);
@@ -23,7 +24,7 @@ class ThemeSwitcher extends Component {
       switchTheme: this.switchTheme
     };
   }
-
+ 
   getRandomTheme = () => {
     const currentTheme = this.state.theme;
     const allThemes = getThemes();
