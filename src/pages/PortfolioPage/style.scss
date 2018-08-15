@@ -1,13 +1,13 @@
-@import 'breakpoints';
+@import "breakpoints";
 
 .portfolio-page {
   padding-top: 2rem;
   min-height: 100vh;
   display: flex;
-	flex: 0 1 auto;
-	flex-direction: column;
+  flex: 0 1 auto;
+  flex-direction: column;
   justify-content: center;
-  
+
   @include breakpoint-small-down {
     padding-top: 3rem;
   }
@@ -31,4 +31,22 @@
       align-items: center;
     }
   }
+}
+
+.ts-icon {
+  width: 25px;
+  background-position: center left;
+  background-size: contain;
+  margin-right: auto;
+}
+
+.graphql-icon {
+  // background-image: url("../../images/graphql-logo.png");
+  background-size: contain;
+  background-position: center;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  margin: 0 5px;
+  border-image: none;
 }
