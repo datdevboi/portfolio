@@ -1,4 +1,4 @@
-@import 'breakpoints';
+@import "breakpoints";
 
 .social-icons {
   padding: 0.25rem 0;
@@ -55,4 +55,13 @@
       transform: translateY(0px);
     }
   }
+}
+
+.codesignal-icon {
+  margin-top: 2px;
+  background-image: url("../../images/codeSignal.jpg");
+  background-position: center;
+  background-size: contain;
+  height: 45px;
+  width: 50px;
 }
