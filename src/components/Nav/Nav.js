@@ -41,7 +41,7 @@ class Nav extends Component {
   render() {
     const {
       theme: { colorPrimary, bgPrimary, navAlpha },
-      switchTheme
+      
     } = this.context;
 
     const stickyClass = this.state.isSticky ? 'sticky' : '';
