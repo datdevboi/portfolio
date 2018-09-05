@@ -99,20 +99,21 @@ export default [{
     </div>
   )
 }, {
-  name: 'axios-retry-interceptor',
+  name: 'Nexter-Project',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Axios Retry Interceptor
+        Nexter Project
       </div>
       <div className='portfolio-item__desc'>
-        Configurable Axios Interceptor to retry failed http calls.
+        A Realtor Site
       </div>
       <div className='portfolio-item__icon'>
-        <i className="fab fa-js"></i>
+        <i className="fab fa-html5"></i>
+        <i className="fab fa-sass"></i>
       </div>
       <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/axios-retry-interceptor">More</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://datdevboi.github.io/Nexter-Project/">Site</a>
       </div>
     </div>
   )
@@ -132,6 +133,26 @@ export default [{
       </div>
       <div className='portfolio-item__links'>
         <a target="_blank" rel="noopener noreferrer" href="https://datdevboi.github.io/trillo-project/#">Site</a>
+        
+      </div>
+    </div>
+  )
+},{
+  name: 'natours-project',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+        Natours Project
+      </div>
+      <div className='portfolio-item__desc'>
+        An Adventour tour website using html and scss.
+      </div>
+      <div className='portfolio-item__icon'>
+        <i className="fab fa-html5"></i>
+        <i className="fab fa-sass"></i>
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://datdevboi.github.io/natours-project/">Site</a>
         
       </div>
     </div>
