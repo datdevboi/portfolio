@@ -8,7 +8,7 @@ class ThemeSwitcher extends Component {
   constructor(props) {
     super(props);
     const allThemes = getThemes();
-    const firstTimeThemes = allThemes.filter(theme => theme.firstTime === true);
+    
     const mainTheme = allThemes.filter(theme => theme.name === "indigo-alt" || theme.name === 'material-cyan' || theme.name === 'cyan' || theme.name === 'cyan-alt')
 
     this.state = {
