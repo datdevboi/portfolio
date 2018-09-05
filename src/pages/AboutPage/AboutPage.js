@@ -25,27 +25,22 @@ const AboutPage = (props, context) => {
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
-              I like <span className="highlight">JavaScript</span> and
-              everything web.
+              I love <span className="highlight">JavaScript/Typescript</span> and
+              everything pertaining to the web.
             </p>
             <p>
-              When my dev senses kick-in I build presumably{' '}
+              When my dev senses kick in I love to build
               <span className="highlight"> awesome stuff</span>. I stay close to
-              the community and try to keep tabs with the pace at which the web
-              is evolving. I also like to{' '}
-              <span className="highlight">blog</span> what I learn.
+              current tech trends and build projects using the new tech that I find interesting. 
+             
             </p>
             <p>
-              I built this site <span className="highlight">from scratch</span>.
-              By scratch, I mean <i>absolutely from scratch</i>{' '}
-              <span className="highlight">
-                without any UI library/framework
-              </span>{' '}
-              (except React though) and had so much fun along the way.
+              This site  is build with<span className="highlight">React JS</span>.
+             
             </p>
             <p>
-              React-Redux, Node.js, Ruby on Rails, Java, Spring Boot, Docker and
-              AWS are the main tricks up my sleeve. I am also obsessed with making the web look pretty with SASS/CSS.
+              React, React-Native, Node.js, Typescript, GraphQL, Mysql, Docker and
+              Kubernetes are the main tricks up my sleeve. 
             </p>
             <p className="text-emoji" style={{ color: colorPrimary }}>
               \ (•◡•) /
