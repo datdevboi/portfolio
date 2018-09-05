@@ -117,22 +117,22 @@ export default [{
     </div>
   )
 }, {
-  name: 'browser-or-node',
+  name: 'trillo-project',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Browser or Node
+        Trillo Project
       </div>
       <div className='portfolio-item__desc'>
-        Javascript library to check the runtime JS env
+        A travel website using html and scss
       </div>
       <div className='portfolio-item__icon'>
-        <i className="fab fa-js"></i>
-        <i className="fab fa-npm"></i>
+        <i className="fab fa-html5"></i>
+        <i className="fab fa-sass"></i>
       </div>
       <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/browser-or-node">NPM</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/browser-or-node">More</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://datdevboi.github.io/trillo-project/#">Site</a>
+        
       </div>
     </div>
   )
