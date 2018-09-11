@@ -13,6 +13,31 @@ const GraphqlIcon = () => (
 )
 
 export default [{
+  name: 'Netero-UI',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+        Netero-UI
+      </div>
+      <div className='portfolio-item__desc'>
+        A set of React components built with TypeScript
+      </div>
+      <div className='portfolio-item__icon'>
+        <i className="fab fa-react"></i>
+        <TsIcon/>
+        <i className="fab fa-npm"></i>
+        
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/netero-ui">NPM</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/datdevboi/netero">Github</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://festive-panini-87ef18.netlify.com">Docs</a>
+        
+        
+      </div>
+    </div>
+  )
+},{
   name: 'Kurama-UI',
   render: (
     <div className='portfolio-item'>
@@ -29,7 +54,7 @@ export default [{
         
       </div>
       <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/datdevboi/kurama">NPM</a>
+        
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/datdevboi/kurama">Github</a>
         
         
