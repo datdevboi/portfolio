@@ -58,10 +58,15 @@
 }
 
 .codesignal-icon {
-  margin-top: 2px;
+  margin-top: 12px;
   background-image: url("../../images/codeSignal.jpg");
   background-position: center;
   background-size: contain;
-  height: 35px;
-  width: 35px;
+  height: 50px;
+  width: 50px;
+
+  @include breakpoint-small-down {
+    height: 30px;
+    width: 30px;
+  }
 }
