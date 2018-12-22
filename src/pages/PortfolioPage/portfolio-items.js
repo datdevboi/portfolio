@@ -194,26 +194,37 @@ export default [
     )
   },
   {
-    name: "airbnb_clone",
+    name: "luz",
     render: (
       <div className="portfolio-item">
-        <div className="portfolio-item__title">Airbnb Clone</div>
+        <div className="portfolio-item__title">Luz</div>
         <div className="portfolio-item__desc">
-          A Full stack airbnb clone both React and React Native using
-          TypeScript.
+          A Light Functional Typescript library
         </div>
         <div className="portfolio-item__icon">
-          <i className="fab fa-react" />
           <TsIcon />
-          <GraphqlIcon />
         </div>
         <div className="portfolio-item__links">
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/datdevboi/airbnb_clone"
+            href="https://github.com/datdevboi/Luz"
           >
             Github
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.npmjs.com/package/luz"
+          >
+            NPM
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://sharp-austin-ebfc9d.netlify.com/"
+          >
+            Docs
           </a>
         </div>
       </div>
